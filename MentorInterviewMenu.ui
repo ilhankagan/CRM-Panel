@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MentorInterviewPage</class>
+ <widget class="QMainWindow" name="MentorInterviewPage">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1016</width>
+    <height>672</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>120</width>
+    <height>40</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Mentor menu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonStyle::ToolButtonFollowStyle</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777214</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 240, 240);
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0" colspan="2">
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>22</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>MENTOR MENU</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame_4">
+      <property name="maximumSize">
+       <size>
+        <width>350</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="tumGorusme">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>160</width>
+           <height>123123</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #d6d6d6); /* Üst açık alt koyu geçişli */
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    padding: 10px 20px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #c8c8c8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset -2px -2px 3px rgba(255, 255, 255, 0.8); /* Hover’da gölge artır */
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d6d6d6, stop:1 #a0a0a0); /* Basılınca koyulaşan efekt */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.3); /* İç gölge ile çökme efekti */
+}</string>
+         </property>
+         <property name="text">
+          <string>TÜM GÖRÜŞMELER</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="ara">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #d6d6d6); /* Üst açık alt koyu geçişli */
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    padding: 10px 20px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #c8c8c8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset -2px -2px 3px rgba(255, 255, 255, 0.8); /* Hover’da gölge artır */
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d6d6d6, stop:1 #a0a0a0); /* Basılınca koyulaşan efekt */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.3); /* İç gölge ile çökme efekti */
+}</string>
+         </property>
+         <property name="text">
+          <string>ARA</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="tercihler">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #d6d6d6); /* Üst açık alt koyu geçişli */
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    padding: 10px 20px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #c8c8c8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset -2px -2px 3px rgba(255, 255, 255, 0.8); /* Hover’da gölge artır */
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d6d6d6, stop:1 #a0a0a0); /* Basılınca koyulaşan efekt */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.3); /* İç gölge ile çökme efekti */
+}</string>
+         </property>
+         <property name="text">
+          <string>TERCİHLER</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="cikis">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>160</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #d6d6d6); /* Üst açık alt koyu geçişli */
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    padding: 10px 20px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #c8c8c8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset -2px -2px 3px rgba(255, 255, 255, 0.8); /* Hover’da gölge artır */
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d6d6d6, stop:1 #a0a0a0); /* Basılınca koyulaşan efekt */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.3); /* İç gölge ile çökme efekti */
+}</string>
+         </property>
+         <property name="text">
+          <string>ÇIKIŞ</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QFrame" name="frame_5">
+      <property name="maximumSize">
+       <size>
+        <width>470</width>
+        <height>110</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>232</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>445</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 4px; /* Yuvarlak kenarlar */
+    padding: 8px 12px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>ARANACAK METNİ GİRİNİZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QComboBox" name="comboBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>222</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>445</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+         </property>
+         <property name="toolTipDuration">
+          <number>-1</number>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #d6d6d6); /* Üst açık alt koyu geçişli */
+    border: 3px solid #b0b0b0; /* Hafif koyu kenarlık */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    padding: 10px 20px; /* Dolgunluk sağlamak için iç boşluk */
+    font-size: 12px;
+    color: black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 3px rgba(255, 255, 255, 0.6); /* Dış gölge ve iç parlama efekti */
+}
+
+QComboBox:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #c8c8c8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset -2px -2px 3px rgba(255, 255, 255, 0.8); /* Hover’da gölge artır */
+}
+
+QComboBox:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #d6d6d6, stop:1 #a0a0a0); /* Basılınca koyulaşan efekt */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.3); /* İç gölge ile çökme efekti */
+}
+</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="minimumContentsLength">
+          <number>0</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>VIT PORJESİNİN TAMAMINA KATILMASI UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VIT PROJESİ İLK IT EĞİTİMİ ALIMINA YÖNLENDİRİMESİ UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VIT PROJESİ İNGİLİZCE EĞİYİ  ALIMINA YÖNLENDİRİLMESİ UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VIT PROJESI KAPSAMINDA DİREKT YÖNLENDİRİLMESİ UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DİREKT BİREYSEL KOÇLUK İLE İŞE YÖNLENDİRİLMESİ UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>BİR SONRAKİ VIT PROJESİNE KATILMASI UYGUN OLUR</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>BAŞKA BİR SEKTÖRE YÖNLENDİRİLMELİ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DİĞER</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QTableWidget" name="tablo">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>10</horstretch>
+           <verstretch>10</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>500</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>1300</width>
+           <height>450</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QTableWidget {
+    background-color: white;
+}
+QTableWidget::item:selected {
+    background-color: blue;
+    color: white;
+}
+
+
+</string>
+         </property>
+         <property name="rowCount">
+          <number>30</number>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>140</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>30</number>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <column>
+          <property name="text">
+           <string>Görüşme Tarihi</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>VIT</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Ad Soyad</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Mentor</string>
+          </property>
+          <property name="textAlignment">
+           <set>AlignHCenter|AlignTop</set>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Puan</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Durum</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>IT Bilgisi</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Yorumlar</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Qwidget" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1016</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Qwidget</class>
+   <extends>QMenuBar</extends>
+   <header location="global">qwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
