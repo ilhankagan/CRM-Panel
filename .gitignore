@@ -1,0 +1,29 @@
+# 🚨 API Anahtarları ve Gizli Dosyalar (Bunları YÜKLEME!)
+config.json
+admin-api-451215-13db0160e668.json
+service_account.json
+google_calendar_service.json
+fourth-carport-451015-i5-206242b3ed33.json
+
+# 🚨 Önbellek ve Derleme Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+
+# 🚨 Geçici ve Test Dosyaları
+api_test.py
+test_google_api.py
+test2.py
+test_get_events_by_date.py
+baglanti.py
+
+# 🚨 Veritabanı ve Hassas Veriler (Bunları YÜKLEME!)
+basvurular_data.py
+mentor_data.py
+mulakatlar_data.py
+*.sqlite3
+*.db
+mail_sender.py
+
+# 🚨 ZIP ve Büyük Dosyalar
+*.zip

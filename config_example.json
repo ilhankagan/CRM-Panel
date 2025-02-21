@@ -1,0 +1,5 @@
+{
+    "service_account_file": "your-service-account.json",
+    "spreadsheet_id": "your-spreadsheet-id"
+  }
+  
