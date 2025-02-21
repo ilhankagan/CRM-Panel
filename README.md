@@ -30,11 +30,6 @@ Uygulamayı başlattığınızda sizi Giriş Ekranı karşılayacaktır. Burada 
 🔹 Giriş Ekranı
 Giriş ekranında aşağıdaki giriş kombinasyonlarını kullanabilirsiniz:
 
-Kullanıcı Adı: "s", Şifre: "d"
-→ Tercihler Menüsüne yönlendirilir.
-
-Kullanıcı Adı: "q", Şifre: "w"
-→ Tercihler Admin Menüsüne yönlendirilir.
 
 Hatalı giriş yapıldığında ekranda bir uyarı mesajı çıkacaktır.
 
