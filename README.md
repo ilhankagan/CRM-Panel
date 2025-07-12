@@ -1,83 +1,97 @@
-📌 CRM Projesi Kullanım Kılavuzu
-1️⃣ Kurulum ve Çalıştırma
-Bu proje, Python ile geliştirilmiş bir CRM (Customer Relationship Management - Müşteri İlişkileri Yönetimi) sistemidir. Uygulama Google Sheets ve Google Calendar entegrasyonları içerir.
+1️⃣ Installation & Launch
+This project is a CRM (Customer Relationship Management) system developed in Python. It includes integrations with Google Sheets and Google Calendar.
 
-🛠 Gerekli Bağımlılıkların Kurulumu
-Projenin çalışması için gerekli Python paketlerini yüklemek için şu adımları takip edin:
+🛠 Installing Required Dependencies
+To run the project, follow these steps to install necessary Python packages:
 
-Python'un sisteminizde yüklü olduğundan emin olun (Önerilen sürüm: 3.9+)
+Ensure Python is installed on your system (Recommended version: 3.9+).
 
-Terminal veya Komut İstemi'ni açarak proje klasörüne gidin.
+Open your terminal or command prompt and navigate to the project folder.
 
-Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
+Run the following command to install dependencies:
 
 bash
 Kopyala
 Düzenle
 pip install -r requirements.txt
-🚀 Uygulamayı Çalıştırma
-Gerekli bağımlılıklar yüklendikten sonra, uygulamayı başlatmak için aşağıdaki komutu çalıştırın:
+🚀 Launching the Application
+Once the dependencies are installed, launch the application using the following command:
 
 bash
 Kopyala
 Düzenle
 python main.py
-Bunu çalıştırdıktan sonra CRM uygulaması açılacaktır.
+The CRM interface will start automatically.
 
-2️⃣ Kullanım Rehberi
-Uygulamayı başlattığınızda sizi Giriş Ekranı karşılayacaktır. Burada kullanıcı adı ve şifre girişi yaparak ilgili menülere yönlendirme yapılır.
+2️⃣ Usage Guide
+When you launch the application, the Login Screen will appear. You can enter your username and password to access different menus.
 
-🔹 Giriş Ekranı
-Giriş ekranında aşağıdaki giriş kombinasyonlarını kullanabilirsiniz:
+🔹 Login Screen
+You can use predefined credentials to log in.
 
+If incorrect login information is entered, a warning message will appear.
 
-Hatalı giriş yapıldığında ekranda bir uyarı mesajı çıkacaktır.
+🔹 Preferences Menu
+After logging in, the Preferences Menu will display the following buttons:
 
-🔹 Tercihler Menüsü
-Tercihler menüsüne giriş yaptığınızda aşağıdaki butonları göreceksiniz:
+Applications → Navigates to the application overview
 
-Başvurular → Başvurular ekranına gider.
-Mülakatlar → Mülakat ekranına gider.
-Mentor Görüşmesi → Mentor görüşmesi sayfasına gider.
-Ana Menü → Giriş ekranına geri döner.
-Kapat → Uygulamayı kapatır.
-Bu menüden istediğiniz alana giderek işlemlerinizi yapabilirsiniz.
+Interviews → Opens the interview management screen
 
-🔹 Tercihler Admin Menüsü
-Bu menü, admin yetkisiyle daha fazla kontrol sağlar. Burada yukarıdaki menü öğelerine ek olarak Admin Menü butonu bulunur.
+Mentor Meeting → Opens the mentor meeting screen
 
-Admin Menü → Google Calendar etkinliklerinin listelendiği admin paneline gider.
-🔹 Admin Paneli (Admin Menü)
-Bu panelde Google Calendar ile entegre çalışan bir sistem bulunur. Aşağıdaki işlemleri yapabilirsiniz:
+Main Menu → Returns to the login screen
 
-"ETKİNLİK KONTROL" → Google Calendar'dan etkinlikleri getirir.
-"MAIL GÖNDER" → Belirlenen etkinlik katılımcılarına e-posta gönderir.
-"TERCİH-ADMIN MENU" → Tercihler Admin Menüsüne geri döner.
-"EXIT" → Admin panelinden çıkış yapar.
-🔹 Başvurular Menüsü
-Başvurular ekranına gidildiğinde kullanıcı başvuru verilerini görüntüleyebilir ve arama yapabilir.
+Exit → Closes the application
 
-🔸 Özel Filtreleme İşlevleri:
+You can navigate through these options to perform actions.
 
-Mentor Görüşmesi Tanımlananlar → Başvurular arasından mentor görüşmesi atanan kişileri gösterir. (OK yazanlar)
-Mentor Görüşmesi Tanımlanmayanlar → Mentor atanmayan kişileri gösterir. (ATANMADI yazanlar)
-Bu butonlara tıklayarak mentor görüşmesi durumu ile ilgili listeleme yapılabilir.
+🔹 Admin Preferences Menu
+This is an extended version of the Preferences Menu with admin access. It includes:
 
-🔹 Mülakatlar & Mentor Görüşmesi Ekranı
-Bu ekranlarda ilgili verileri görüntüleyebilir, filtreleyebilir ve arama yapabilirsiniz.
+Admin Menu → Navigates to the calendar-integrated admin panel
 
-Mülakatlar ekranı → Başvuranların mülakat süreçlerini gösterir.
-Mentor Görüşmesi ekranı → Kullanıcının mentor görüşmesi sürecini takip edebilirsiniz.
-Her iki ekranda da "Tercihler" butonuna tıklayarak Tercihler Menüsüne dönebilirsiniz.
+🔹 Admin Panel
+This panel integrates with Google Calendar. You can:
 
-3️⃣ Ekstra Bilgiler
-Tüm veriler Google Sheets ile senkronize edilir.
-Google Calendar API kullanılarak etkinlik yönetimi sağlanır.
-E-posta gönderme işlemi için SMTP veya Mailgun entegrasyonu kullanılabilir.
-4️⃣ Uygulamadan Çıkış
-Uygulamadan çıkmak için:
+ETKİNLİK KONTROL (Event Check) → Fetch events from Google Calendar
 
-Giriş ekranında "Kapat" butonuna tıklayabilirsiniz.
-Menülerdeki "Exit" butonu ile çıkış yapabilirsiniz.
-Komut satırında CTRL + C tuş kombinasyonunu kullanarak programı sonlandırabilirsiniz.
+MAIL GÖNDER (Send Mail) → Send emails to event participants
+
+TERCİH-ADMIN MENU → Return to the Admin Preferences Menu
+
+EXIT → Exit the admin panel
+
+🔹 Applications Menu
+In the Applications Menu, users can view and search application data.
+
+🔸 Special Filter Options:
+Mentor Assigned → Shows users who have a mentor meeting assigned (marked “OK”)
+
+Mentor Not Assigned → Shows users without an assigned mentor (marked “ATANMADI”)
+
+Clicking these buttons filters applications based on mentor assignment status.
+
+🔹 Interviews & Mentor Meeting Screens
+These screens allow you to view, search, and filter relevant data:
+
+Interviews Screen → Displays candidates' interview progress
+
+Mentor Meeting Screen → Tracks mentor meeting status
+
+Both screens include a Preferences button to return to the main menu.
+
+3️⃣ Additional Information
+All data is synchronized with Google Sheets.
+
+Google Calendar API is used for event management.
+
+SMTP or Mailgun integration is used for sending emails.
+
+4️⃣ Exiting the Application
+You can exit the application by:
+
+Clicking the Exit button on the login or menu screens
+
+Using CTRL + C in the terminal
 
