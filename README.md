@@ -10,16 +10,10 @@ Open your terminal or command prompt and navigate to the project folder.
 
 Run the following command to install dependencies:
 
-bash
-Kopyala
-Düzenle
 pip install -r requirements.txt
 🚀 Launching the Application
 Once the dependencies are installed, launch the application using the following command:
 
-bash
-Kopyala
-Düzenle
 python main.py
 The CRM interface will start automatically.
 
